@@ -1,0 +1,59 @@
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+img {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:50px;
+}
+
+.perfis {
+    font-size: large;
+}
+
+img:hover {
+    width: 210px;
+    cursor: pointer;
+}
+
+.botao {
+    margin-top: 20px;
+    background-color: #141414;
+    border: solid #2e2e2e 1px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    width: 200px;
+    height: 45px;
+    transition: 500ms;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
